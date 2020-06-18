@@ -1,0 +1,139 @@
+package aula20200615;
+
+public class AppFaculdade {
+	public static void main(String[] args) {
+
+		Curso EngenhariaDesoftware = new Curso();
+		Pessoa Ireneu = new Pessoa();
+
+		EngenhariaDesoftware.setDescricao("Engenharia De software bacharelado ");
+		EngenhariaDesoftware.setCodigo("7574");
+		Ireneu.setPrimeiroNome("Ireneu");
+		Ireneu.setSobrenome("Silva");
+		Ireneu.setDataDeNascimento("20/05/1975");
+		Ireneu.setLogradouro("Apartamento");
+		Ireneu.setNumero("1243");
+		Ireneu.setComplemento("perto do supermedo Angeloni");
+		Ireneu.setBairro("Zona 7");
+		Ireneu.setCidade("Maringá");
+		Ireneu.setEstado("Paraná");
+
+		System.out.println(EngenhariaDesoftware.getDescricao());
+		System.out.println(EngenhariaDesoftware.getCodigo());
+		System.out.println(Ireneu.getPrimeiroNome());
+		System.out.println(Ireneu.getSobrenome());
+		System.out.println(Ireneu.getDataDeNascimento());
+		System.out.println(Ireneu.getLogradouro());
+		System.out.println(Ireneu.getNumero());
+		System.out.println(Ireneu.getComplemento());
+		System.out.println(Ireneu.getBairro());
+		System.out.println(Ireneu.getCidade());
+		System.out.println(Ireneu.getEstado());
+
+		System.out.println("//---------------------------------------------------------------------");
+
+		Curso ADS = new Curso();
+
+		Turma A = new Turma();
+		Turma B = new Turma();
+		Turma C = new Turma();
+
+		A.setDescricao("Analise desenvolvimento de sistemas Tecnólogo");
+		A.setCodigo("45364");
+		B.setDescricao("Analise desenvolvimento de sistemas Tecnólogo");
+		B.setCodigo("45365");
+		C.setDescricao("Analise desenvolvimento de sistemas Tecnólogo");
+		C.setCodigo("45366");
+		ADS.setDescricao("Analise desenvolvimento de sistemas Tecnólogo");
+		ADS.setCodigo("03");
+
+		System.out.println(A.getDescricao());
+		System.out.println(A.getCodigo());
+		System.out.println(B.getDescricao());
+		System.out.println(B.getCodigo());
+		System.out.println(C.getDescricao());
+		System.out.println(C.getCodigo());
+		System.out.println(ADS.getDescricao());
+		System.out.println(ADS.getCodigo());
+	 
+		
+		System.out.println("//---------------------------------------------------------------------");
+		
+		Turma I = new Turma();
+		
+		Pessoa Marcos = new Pessoa();
+		Pessoa Anna = new Pessoa();
+		Pessoa Rodrigo = new Pessoa();
+		
+		I.setDescricao("Engenharia De software bacharelado ");
+		I.setCodigo("7574");
+		Marcos .setPrimeiroNome("Marcos ");
+		Marcos .setSobrenome("Brito");
+		Marcos .setDataDeNascimento("25/07/1999");
+		Marcos .setLogradouro("Casa");
+		Marcos .setNumero("575");
+		Marcos .setComplemento("perto do country club ");
+		Marcos .setBairro("Zona 4");
+		Marcos .setCidade("Maringá");
+		Marcos .setEstado("Paraná");
+		
+		Anna.setPrimeiroNome("Anna");
+		Anna.setSobrenome("Julia");
+		Anna.setDataDeNascimento("21/08/1997");
+		Anna.setLogradouro("Casa");
+		Anna.setNumero("784");
+		Anna.setComplemento("perto do clube acema ");
+		Anna.setBairro("Cidade Nova");
+		Anna.setCidade("Maringá");
+		Anna.setEstado("Paraná");
+       
+		Rodrigo.setPrimeiroNome("Rodrigo");
+		Rodrigo.setSobrenome("Gaspar");
+		Rodrigo.setDataDeNascimento("12/05/1998");
+		Rodrigo.setLogradouro("Casa");
+		Rodrigo.setNumero("77848");
+		Rodrigo.setComplemento("perto do unicesumar");
+		Rodrigo.setBairro("Parque Lagoa Dourada");
+		Rodrigo.setCidade("Maringá");
+		Rodrigo.setEstado("Paraná");
+		
+		System.out.println(I.getDescricao());
+		System.out.println(I.getCodigo());
+		System.out.println(Marcos.getPrimeiroNome());
+		System.out.println(Marcos.getSobrenome());
+		System.out.println(Marcos.getDataDeNascimento());
+		System.out.println(Marcos.getLogradouro());
+		System.out.println(Marcos.getNumero());
+		System.out.println(Marcos.getComplemento());
+		System.out.println(Marcos.getBairro());
+		System.out.println(Marcos.getCidade());
+		System.out.println(Marcos.getEstado());
+		System.out.println("//---------------------------------------------------------------------");
+		System.out.println(I.getDescricao());
+		System.out.println(I.getCodigo());
+		System.out.println(Anna.getPrimeiroNome());
+		System.out.println(Anna.getSobrenome());
+		System.out.println(Anna.getDataDeNascimento());
+		System.out.println(Anna.getLogradouro());
+		System.out.println(Anna.getNumero());
+		System.out.println(Anna.getComplemento());
+		System.out.println(Anna.getBairro());
+		System.out.println(Anna.getCidade());
+		System.out.println(Anna.getEstado());
+		System.out.println("//---------------------------------------------------------------------");
+		System.out.println(I.getDescricao());
+		System.out.println(I.getCodigo());
+		System.out.println(Rodrigo.getPrimeiroNome());
+		System.out.println(Rodrigo.getSobrenome());
+		System.out.println(Rodrigo.getDataDeNascimento());
+		System.out.println(Rodrigo.getLogradouro());
+		System.out.println(Rodrigo.getNumero());
+		System.out.println(Rodrigo.getComplemento());
+		System.out.println(Rodrigo.getBairro());
+		System.out.println(Rodrigo.getCidade());
+		System.out.println(Rodrigo.getEstado());
+			
+		
+	}
+
+}
